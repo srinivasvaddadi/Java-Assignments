@@ -1,4 +1,4 @@
-package com.Assignment6;
+package com.Assignment7;
 
 import java.util.Scanner;
 
@@ -7,20 +7,26 @@ public class Common {
 	private String name;
 	private int age;
 	private int salary;
-	private String designation;
-	
 
 	public void getDetails() {
-		System.out.println("Enter name,age,salary,designation...");
+		System.out.println("Enter name,age,salary...");
 		name = sc.next();
 		age = sc.nextInt();
 		salary = sc.nextInt();
-		sc.nextLine();
-		designation = sc.nextLine();
 	}
 
 	public void display() {
-		System.out.print("Name-"+ name + "," +"Age-" + age + "," +"Salary-" +salary + "," +"Designation-" +designation);
+		System.out.println("Name- "+name);
+		System.out.println("Age- "+age);
+		System.out.println("Salary- "+salary);
+	}
+
+	public void designation() {
+
+	}
+
+	public void specialization() {
+
 	}
 
 }
